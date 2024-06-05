@@ -12,9 +12,8 @@ function App() {
 			/>
 			<TelegramLoginButton2
 				dataOnauth={user => console.log(user)}
-				botName='OdauBot'
+				botName='tpassport_test_bot'
 			/>
-			,
 		</>
 	);
 }
